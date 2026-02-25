@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/MyEtherWallet/bls-eth-swift?colorA=07A6B3&&colorB=5F6368)
+![GitHub](https://img.shields.io/github/license/Kushmanmb/bls-eth-swift?colorA=07A6B3&&colorB=5F6368)
 [![Platform](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-5F6368.svg?colorA=07A6B3)](#installation)
 [![Swift support](https://img.shields.io/badge/Swift-5.0-lightgrey.svg?colorA=07A6B3&colorB=5F6368)](#swift-versions-support)
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg?style=flat&colorA=07A6B3&&colorB=5F6368)](https://github.com/apple/swift-package-manager)
@@ -23,7 +23,7 @@ Good mood
 You can use [Swift Package Manager](https://swift.org/package-manager/) and specify dependency in `Package.swift` by adding this:
 
 ```swift
-.package(url: "https://github.com/MyEtherWallet/bls-eth-swift.git", .upToNextMajor(from: "1.0.0"))
+.package(url: "https://github.com/Kushmanmb/bls-eth-swift.git", .upToNextMajor(from: "1.0.0"))
 ```
 
 ### XCFramework
@@ -64,7 +64,7 @@ return Data(publicKeyBytes)
 
 ## Swift versions support
 
-- Swift 5.0 and newer, branch [master](https://github.com/MyEtherWallet/bls-eth-swift/tree/master)
+- Swift 5.0 and newer, branch [master](https://github.com/Kushmanmb/bls-eth-swift/tree/master)
 
 ### License
 
