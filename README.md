@@ -1,13 +1,13 @@
-![GitHub](https://img.shields.io/github/license/Kushmanmb/bls-eth-swift?colorA=07A6B3&&colorB=5F6368)
+![GitHub](https://img.shields.io/github/license/Kushmanmb/bls-eth-swift?colorA=07A6B3&colorB=5F6368)
 [![Platform](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-5F6368.svg?colorA=07A6B3)](#installation)
 [![Swift support](https://img.shields.io/badge/Swift-5.0-lightgrey.svg?colorA=07A6B3&colorB=5F6368)](#swift-versions-support)
-[![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg?style=flat&colorA=07A6B3&&colorB=5F6368)](https://github.com/apple/swift-package-manager)
+[![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg?style=flat&colorA=07A6B3&colorB=5F6368)](https://github.com/apple/swift-package-manager)
 
 **Note**: this framework doesn't provide a way to derive Eth2 secret key ([eip-2333](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2333.md)). Please use your own implementation
 
 ## bls-eth-swift
 
-bls-eth-swift provides convenient way to integrate https://github.com/herumi/bls-eth-go-binary
+bls-eth-swift provides a convenient way to integrate https://github.com/herumi/bls-eth-go-binary
 
 ## Requirements
 Good mood
@@ -30,7 +30,7 @@ You can use [Swift Package Manager](https://swift.org/package-manager/) and spec
 
 `XCFrameworks` require Xcode 11 or later and they can be integrated similarly to how we’re used to integrating the `.framework` format. Please use a script `bls_framework/build.sh` to generate binary `bls_framework.xcframework` archive that you can use as a dependency in Xcode or you can use precompiled one.
 
-`bls_framework.xcframework` is a Release (Optimized) binary that offer best available Swift code performance.
+`bls_framework.xcframework` is a Release (Optimized) binary that offers best available Swift code performance.
 
 ## How to
 ```swift
